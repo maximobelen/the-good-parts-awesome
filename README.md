@@ -42,6 +42,8 @@ Every Objects are linked to a prototype object from where they can inherit prope
 JavaScript does have function scope. That means that the parameters and variables defined in a function are not visible outside of the function, and that a variable defined anywhere within a function is visible everywhere within the function.
 ####Closure
 Inner functions get access to the parameters and variables of the functions they are defined within only with the exception of "this" and arguments.
+####Callbacks
+Callbacks are a great friends, you need to understand their meaning and how they works. If you came from another language that don't use asynchronous calls this will be difficult, but once you understand it you are going to understand how to works with server responses.
 ###5. Inheritance
 ###6. Arrays
 As we know arrays are linear allocation on memory which each elements are accessed by intergers that allow you to compute offset but...<br>
@@ -102,6 +104,7 @@ Is better to use line comments to comment the code, and block comments to formal
 Also I don't want to sum up this part, please take a look on the conclusions of Douglas Crockford.
 
 <br>
-##Personals Conclusions
+##Personal Conclusion
+You should read this book! This is only a summary but there you are going to find your own summary and take your own conclusions. It take my a lot of time to decide to read it, and if I read it before maybe I didn't have many of the problems that I experimented because of the lack of knowledge.
 <br>
 ##Feel free to contribute so we can create a real awesome summary :)
