@@ -85,6 +85,19 @@ This last one is more clearly to read than the concat.
 Some months ago I worked on a turkish project and in some place we have to put all the text in uppercase, as I didn't know about the existence of this method I used the normal string.toUpperCase(), but we loose the real character. If you use toLocaleUpperCase() language ‘i’ converts to ‘&#x130;’, not ‘I’ same with the inverted convertion.
 
 ###9. Style 
+Try to always use brackets to delimite your blocks.
+```js
+if (a) 
+	b( );	c( );
+
+//This try to be 
+if (a) { 
+	b( ); 
+	c( );} 
+//but actually this meansif (a) { 	b( );}c( );
+```
+<br>
+Is better to use line comments to comment the code, and block comments to formal documentation.
 ###10. Beautiful Features
 Also I don't want to sum up this part, please take a look on the conclusions of Douglas Crockford.
 
