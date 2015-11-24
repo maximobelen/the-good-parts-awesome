@@ -29,6 +29,13 @@ For the ones that don't know (and are in the same situations I was before)...  t
 I can't sum up this part, just read the awesome introduction of Douglas Crockford.
 ###2. Grammar 
 ###3. Objects 
+An object in Javascript is a container of properties.<br>
+1. A property is defined by a name and a value.<br>
+	* A property name can be any string, including the empty string.<br>
+	* A property value can be any JavaScript value except for undefined.<br>
+<br>
+Every Objects are linked to a prototype object from where they can inherit properties
+		
 ###4. Functions 
 ####Scope
 JavaScript does have function scope. That means that the parameters and variables defined in a function are not visible outside of the function, and that a variable defined anywhere within a function is visible everywhere within the function.
