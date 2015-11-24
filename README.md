@@ -31,9 +31,10 @@ I can't sum up this part, just read the awesome introduction of Douglas Crockfor
 ###3. Objects 
 1. An object in Javascript is a container of properties.<br>
 2. A property is defined by a name and a value.
-* A property name can be any string, including the empty string.
-* A property value can be any JavaScript value except for undefined.
+	* A property name can be any string, including the empty string.
+	* A property value can be any JavaScript value except for undefined.
 <br>
+
 Every Objects are linked to a prototype object from where they can inherit properties
 		
 ###4. Functions 
