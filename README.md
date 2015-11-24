@@ -57,7 +57,7 @@ Array.method('shift', function () { return this.splice(0, 1)[0];});
 #####Concat
 var s = 'C'.concat('a', 't'); // s is 'Cat'<br>
 Concat a string with this method is the same as concating with + operator in this way:<br>
-var s = 'C' + 'a' + 't';<br><br>
+var s = 'C' + 'a' + 't';<br>
 
 This last one is more clearly to read than the concat.
 
@@ -66,7 +66,7 @@ Some months ago I worked on a turkish project and in some place we have to put a
 
 ###9. Style 
 ###10. Beautiful Features
-Also I don't want to sum up this part, please take a look of the conclusions of Douglas Crockford.
+Also I don't want to sum up this part, please take a look on the conclusions of Douglas Crockford.
 
 <br>
 ##Personals Conclusions
