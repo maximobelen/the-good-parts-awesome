@@ -29,10 +29,10 @@ For the ones that don't know (and are in the same situations I was before)...  t
 I can't sum up this part, just read the awesome introduction of Douglas Crockford.
 ###2. Grammar 
 ###3. Objects 
-An object in Javascript is a container of properties.<br>
-1. A property is defined by a name and a value.<br>
-	* A property name can be any string, including the empty string.<br>
-	* A property value can be any JavaScript value except for undefined.<br>
+1. An object in Javascript is a container of properties.<br>
+2. A property is defined by a name and a value.
+* A property name can be any string, including the empty string.
+* A property value can be any JavaScript value except for undefined.
 <br>
 Every Objects are linked to a prototype object from where they can inherit properties
 		
@@ -52,7 +52,12 @@ Take care with two lines, in a JavaScript program, the regular expression must b
 #####Don't confuse splice with slice
 There are two differents methods. From Douglas Crockford:<br>
 
-#####array.slice(start, end)<br>The slice method makes a shallow copy of a portion of an array. The first element copied will be array[start]. It will stop before copying array[end]. The end parameter is optional, and the default is array.length.<br>#####array.splice(start, deleteCount, item...)The splice method removes elements from an array, replacing them with new items. The start parameter is the number of a position within the array.<br>The deleteCount parameter is the number of elements to delete starting from that position. If there are additional parameters, those items will be inserted at the position. It returns an array containing the deleted elements.
+#####array.slice(start, end)<br>
+The slice method makes a shallow copy of a portion of an array. The first element copied will be array[start]. It will stop before copying array[end]. The end parameter is optional, and the default is array.length.
+<br>
+#####array.splice(start, deleteCount, item...)
+The splice method removes elements from an array, replacing them with new items. The start parameter is the number of a position within the array.<br>
+The deleteCount parameter is the number of elements to delete starting from that position. If there are additional parameters, those items will be inserted at the position. It returns an array containing the deleted elements.
 #####Sorting Arrays
 Sorting numbers with array.sort() didn't works as we expect.<br><br>
 If you have this array:<br>
