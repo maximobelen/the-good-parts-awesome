@@ -39,6 +39,9 @@ Take care with two lines, in a JavaScript program, the regular expression must b
 ###8. Methods 
 ####Arrays
 #####Don't confuse splice with slice
+There are two differents methods. From Douglas Crockford:<br>
+
+######array.slice(start, end)<br>The slice method makes a shallow copy of a portion of an array. The first element copied will be array[start]. It will stop before copying array[end]. The end parameter is optional, and the default is array.length.<br>######array.splice(start, deleteCount, item...)The splice method removes elements from an array, replacing them with new items. The start parameter is the number of a position within the array.<br>The deleteCount parameter is the number of elements to delete starting from that position. If there are additional parameters, those items will be inserted at the position. It returns an array containing the deleted elements.
 #####Sorting Arrays
 Sorting numbers with array.sort() didn't works as we expect.<br><br>
 If you have this array:<br>
