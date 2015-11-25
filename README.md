@@ -1,3 +1,4 @@
+
 # the-good-parts-awesome
 
 ##Motivation
@@ -45,6 +46,7 @@ Inner functions get access to the parameters and variables of the functions they
 ####Callbacks
 Callbacks are a great friends, you need to understand their meaning and how they works. If you came from another language that don't use asynchronous calls this will be difficult, but once you understand it you are going to understand how to works with server responses.
 ###5. Inheritance
+JavaScript is a prototypal language, which means that objects inherit directly from other objects.
 ###6. Arrays
 As we know arrays are linear allocation on memory which each elements are accessed by intergers that allow you to compute offset but...<br>
 In Javacript arrays are not the same as in another language. In Javascript arrays are objects that has some array-like characteristics, this make arrays significantly slower than a real array.
@@ -103,8 +105,9 @@ Is better to use line comments to comment the code, and block comments to formal
 ###10. Beautiful Features
 Also I don't want to sum up this part, please take a look on the conclusions of Douglas Crockford.
 
-<br>
 ##Personal Conclusion
-You should read this book! This is only a summary but there you are going to find your own summary and take your own conclusions. It take my a lot of time to decide to read it, and if I read it before maybe I didn't have many of the problems that I experimented because of the lack of knowledge.
+Definitely, You should read this book! This is only a summary but there you are going to find your own summary and take your own conclusions. It take my a lot of time to decide to read it, and if I read it before maybe I didn't have many of the problems that I experimented because of the lack of knowledge.
+<br>
+<br>
 <br>
 ##Feel free to contribute so we can create a real awesome summary :)
